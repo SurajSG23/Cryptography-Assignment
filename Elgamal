@@ -34,6 +34,9 @@ public class ElGamal {
         BigInteger m = scanner.nextBigInteger(); // Message to encrypt
         scanner.close();
 
+
+
+
         // Encryption process
         BigInteger r = new BigInteger(256, random); // Random r for encryption
 
