@@ -32,10 +32,6 @@ public class RSA{
 		byte[] encrypted = new BigInteger(testString.getBytes()).modPow(e,N).toByteArray();
 		byte[] decrypted = new BigInteger(encrypted).modPow(d,N).toByteArray();
 
-
-
-
-
 		System.out.print("Encrypted Bytes: ");
 		for(int i=0; i<encrypted.length; i++){ 
 			System.out.print(encrypted[i]); 
